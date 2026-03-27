@@ -1,18 +1,18 @@
 # Gabriela Cascione — Data Analyst Portfolio
 
-A personal portfolio website built with HTML and CSS, designed to showcase data analytics projects, professional experience, and skills.
+A personal portfolio website built with HTML and CSS, designed to showcase my data analytics projects, professional experience, and skills.
 
 ---
 
 ## What this project does
 
 This is a static portfolio website containing:
-- A project showcase with 5 end-to-end data analyses (SQL, Python, Tableau)
+- A project showcase with data analyses (SQL, Python, Tableau)
 - A skills and languages overview
 - A professional experience timeline
 - Testimonials from colleagues and managers
 - A contact section with links to LinkedIn, GitHub, and Tableau Public
-- An Impressum (required by German law for websites operated from Germany)
+- An Impressum, as required by German law for websites operated from Germany
 
 ---
 
@@ -48,7 +48,7 @@ If you have questions about the projects showcased here, or would like to get in
 ## Who maintains this project
 
 This portfolio is built and maintained by **Gabriela Cascione**.  
-All content, design, and project work is my own.
+All content and project work is my own.
 
 ---
 
