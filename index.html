@@ -223,29 +223,50 @@
       <div class="fade-up">
         <div class="section-label">Projects</div>
         <h2 class="section-title">Selected Projects</h2>
-        <p class="section-subtitle">Each project is a full-cycle exploration &mdash; from raw data to insight to recommendation. For more repositories and other projects, <a href="https://github.com/craftedbygaby" target="_blank" class="inline-link">click here to visit my GitHub</a>.</p>
+        <p class="section-subtitle">Each project is a full-cycle exploration &mdash; from raw data to insight to recommendation. For more repositories and other projects, <a href="https://github.com/craftedbygaby" target="_blank" class="inline-link">click here to visit my GitHub</a>.<br/><br/><em style="font-size:0.82rem;">Note: Tableau Public dashboards occasionally render with formatting issues depending on browser settings &mdash; if a dashboard looks off, the GitHub repo for that project includes the full workbook file.</em></p>
       </div>
       <div class="projects-grid">
 
-        <!-- ═══════════════════════════════════════════════════════
-             PROJECTS — HOW TO ADD YOUR LINKS
-             Each card is a clickable block. Replace the href="#"
-             on each <div class="project-card"> with your real URL.
-
-             For GitHub:        https://github.com/craftedbygaby/REPO-NAME
-             For Tableau Public: https://public.tableau.com/app/profile/gabriela.cascione/viz/VIZ-NAME
-
-             For projects with TWO links (e.g. Rockbuster), the card
-             itself links to GitHub, and the second link at the bottom
-             links to Tableau Public separately.
-             ═══════════════════════════════════════════════════════ -->
-
-        <!-- [CHANGE] Replace href with your Instacart GitHub repo URL -->
+        <!-- Viewpoint Insights — Brazil's Road Back (FEATURED) -->
         <div class="project-card featured fade-up">
-          <div class="project-tag"><span class="tag">Python</span><span class="tag">pandas</span><span class="tag">Jupyter</span><span class="tag">seaborn</span><span class="tag">matplotlib</span></div>
-          <div class="project-title">Instacart &mdash; Customer Segmentation &amp; Marketing Strategy</div>
-          <p class="project-desc">Instacart needed to move beyond broad promotions and target the right customers at the right time. Segmented customers by behavior, loyalty, demographics, and region to identify peak windows, high-spend patterns, and product preferences. Delivered a targeted campaign strategy by region, time of day, and customer profile.</p>
-          <a href="https://github.com/craftedbygaby/instacart" target="_blank" class="project-footer">View on GitHub</a>
+          <div class="project-tag"><span class="tag">Python</span><span class="tag">pandas</span><span class="tag">Tableau</span><span class="tag">Streamlit</span><span class="tag">EDA</span></div>
+          <div class="project-title">Brazil&rsquo;s Road Back &mdash; International Tourism Recovery Analysis</div>
+          <p class="project-desc">Brazil&rsquo;s tourism board needed to understand whether international arrivals had fully recovered from COVID-19, and who was driving that recovery. Analyzed a decade of official government and UN Tourism data to track the recovery timeline, entry routes, and shifting visitor markets. Delivered two Tableau dashboards and a Streamlit travel recommender app built on the findings.</p>
+          <div class="project-links project-links--stacked">
+            <a href="https://github.com/craftedbygaby/viewpoint_insights" target="_blank" class="project-footer">View on GitHub</a>
+            <a href="https://public.tableau.com/app/profile/gabriela.cascione/viz/BrazilsRoadBackInternationalTourismRecovery20152024/D1-World" target="_blank" class="project-footer">View on Tableau Public</a>
+            <a href="https://brazil-travel-recommender.streamlit.app/" target="_blank" class="project-footer">View Live App</a>
+          </div>
+        </div>
+
+        <!-- Hotel Cancellation ML -->
+        <div class="project-card fade-up">
+          <div class="project-tag"><span class="tag">Python</span><span class="tag">scikit-learn</span><span class="tag">Classification</span><span class="tag">Hyperparameter Tuning</span></div>
+          <div class="project-title">Hotel Booking Cancellation Predictor</div>
+          <p class="project-desc">A hotel group needed to predict which bookings were likely to be cancelled in order to manage overbooking and revenue risk. Built and compared 9 classification models on booking and customer behavior data, then tuned the best-performing model with RandomizedSearchCV. Identified class imbalance as a key limitation and outlined next steps to address it.</p>
+          <a href="https://github.com/craftedbygaby/hotel_cancelation_ml" target="_blank" class="project-footer">View on GitHub</a>
+        </div>
+
+        <!-- The Reading Room (team project, forked) -->
+        <div class="project-card fade-up">
+          <div class="project-tag"><span class="tag">Python</span><span class="tag">Web Scraping</span><span class="tag">APIs</span><span class="tag">Unsupervised ML</span><span class="tag">Streamlit</span></div>
+          <div class="project-title">The Reading Room &mdash; Book Recommender</div>
+          <p class="project-desc">Readers face too many choices and generic recommendations rarely feel personal. Built a book recommender using web-scraped and API-collected data from Goodreads and Open Library, applying TF-IDF, PCA, and K-Means clustering to group books by genre and description similarity. Deployed as an interactive Streamlit app. Team project with Hina Haq.</p>
+          <div class="project-links project-links--stacked">
+            <a href="https://github.com/craftedbygaby/The_Reading_Room" target="_blank" class="project-footer">View on GitHub</a>
+            <a href="https://the-reading-room.streamlit.app/" target="_blank" class="project-footer">View Live App</a>
+          </div>
+        </div>
+
+        <!-- AB Testing (team project, forked) -->
+        <div class="project-card fade-up">
+          <div class="project-tag"><span class="tag">Python</span><span class="tag">A/B Testing</span><span class="tag">Hypothesis Testing</span><span class="tag">Tableau</span></div>
+          <div class="project-title">Vanguard A/B Test &mdash; Digital Process Redesign</div>
+          <p class="project-desc">Vanguard wanted to know whether a redesigned digital interface actually improved client completion rates. Ran a full A/B test analysis on over 300,000 client sessions, including hypothesis testing on completion rate, time spent, and error rate, plus an honest evaluation of the experiment&rsquo;s design and limitations. Team project with Hina Haq and Jorge Barrios Hurtado.</p>
+          <div class="project-links project-links--stacked">
+            <a href="https://github.com/craftedbygaby/AB_testing" target="_blank" class="project-footer">View on GitHub</a>
+            <a href="https://public.tableau.com/app/profile/jorge.barrios.hurtado/viz/Vanguard_ABTest_Dashboard/Dashboard1?publish=yes" target="_blank" class="project-footer">View Tableau Dashboard</a>
+          </div>
         </div>
 
         <!-- [CHANGE] Rockbuster has TWO links — replace both # below -->
@@ -253,34 +274,19 @@
           <div class="project-tag"><span class="tag">SQL</span><span class="tag">PostgreSQL</span><span class="tag">CTEs</span><span class="tag">Subqueries</span><span class="tag">Joins</span><span class="tag">Tableau</span></div>
           <div class="project-title">Rockbuster &mdash; SQL Revenue &amp; Customer Analysis</div>
           <p class="project-desc">Rockbuster needed to understand where revenue was concentrated before planning expansion. Queried a relational database to uncover rental patterns, top-grossing titles, and high-value customer locations by region. Recommended prioritizing the top 10 markets and targeting specific genres and ratings to drive revenue growth.</p>
-          <div class="project-links">
+          <div class="project-links project-links--stacked">
             <a href="https://github.com/craftedbygaby/rockbuster" target="_blank" class="project-footer">View on GitHub</a>
-            <a href="https://public.tableau.com/app/profile/gabriela.cascione" target="_blank" class="project-footer">View on Tableau Public</a>
+            <a href="https://public.tableau.com/app/profile/gabriela.cascione/viz/InventoryAnalysis-Rockbuster-3_10/D-GenreAnalysis" target="_blank" class="project-footer">View Genre Analysis Dashboard</a>
+            <a href="https://public.tableau.com/app/profile/gabriela.cascione/viz/CustomerAnalysis-Rockbuster-3_10/D-WhereareourCustomers" target="_blank" class="project-footer">View Customer Analysis Dashboard</a>
           </div>
         </div>
 
-        <!-- [CHANGE] Replace href with your Flu Season Tableau Public URL -->
+        <!-- Instacart (demoted to regular size) -->
         <div class="project-card fade-up">
-          <div class="project-tag"><span class="tag">Excel</span><span class="tag">Tableau</span><span class="tag">Statistical Hypothesis Testing</span><span class="tag">Forecasting</span></div>
-          <div class="project-title">Flu Season &mdash; US Healthcare Staffing Optimization</div>
-          <p class="project-desc">A medical staffing agency needed a data-driven framework to deploy temporary staff across all 50 US states during influenza season. Analyzed flu mortality and age-specific vulnerability data to identify peak periods and high-risk regions. Delivered a two-tier staffing model distinguishing high-volume states from year-round critical intervention states.</p>
-          <a href="https://public.tableau.com/app/profile/gabriela.cascione/viz/VisualizationExercises-CFAchievement2/2_9Storyboard" target="_blank" class="project-footer">View on Tableau Public</a>
-        </div>
-
-        <!-- [CHANGE] Replace href with your GameCo GitHub repo URL -->
-        <div class="project-card fade-up">
-          <div class="project-tag"><span class="tag">Excel</span><span class="tag">Pivot Tables</span><span class="tag">Descriptive Statistics</span><span class="tag">Data Visualization</span></div>
-          <div class="project-title">GameCo &mdash; Global Video Game Sales Analysis</div>
-          <p class="project-desc">GameCo needed to predict how upcoming titles would perform globally before launch. Analyzed decades of historical sales data to map genre trends, regional preferences, and competitor positioning across three major markets. Delivered strategic recommendations for marketing budget allocation by region and identified untapped growth opportunities in Europe and Japan.</p>
-          <a href="https://github.com/craftedbygaby/gameco" target="_blank" class="project-footer">View on GitHub</a>
-        </div>
-
-        <!-- [CHANGE] Replace href with your Pig E. Bank GitHub repo URL -->
-        <div class="project-card fade-up">
-          <div class="project-tag"><span class="tag">Excel</span><span class="tag">Predictive Modeling</span><span class="tag">Decision Trees</span><span class="tag">Time Series</span></div>
-          <div class="project-title">Pig E. Bank &mdash; AML Compliance &amp; Churn Prediction</div>
-          <p class="project-desc">Pig E. Bank needed to identify at-risk customers and understand the profile driving churn. Built a decision tree model on behavioral and demographic data to predict churn risk and surface the key characteristics of customers likely to close accounts.</p>
-          <a href="https://github.com/craftedbygaby/pigebank" target="_blank" class="project-footer">View on GitHub</a>
+          <div class="project-tag"><span class="tag">Python</span><span class="tag">pandas</span><span class="tag">Jupyter</span><span class="tag">seaborn</span><span class="tag">matplotlib</span></div>
+          <div class="project-title">Instacart &mdash; Customer Segmentation &amp; Marketing Strategy</div>
+          <p class="project-desc">Instacart needed to move beyond broad promotions and target the right customers at the right time. Segmented customers by behavior, loyalty, demographics, and region to identify peak windows, high-spend patterns, and product preferences. Delivered a targeted campaign strategy by region, time of day, and customer profile.</p>
+          <a href="https://github.com/craftedbygaby/instacart" target="_blank" class="project-footer">View on GitHub</a>
         </div>
 
       </div>

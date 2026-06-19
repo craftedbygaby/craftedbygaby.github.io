@@ -118,6 +118,7 @@ section { position: relative; z-index: 1; }
 .project-desc { font-size: 0.85rem; color: var(--text-muted); line-height: 1.75; margin-bottom: 1.5rem; }
 .project-footer { display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); text-decoration: none; }
 .project-links { display: flex; gap: 1.5rem; flex-wrap: wrap; }
+.project-links--stacked { display: flex; flex-direction: column; gap: 0.6rem; }
 .project-footer::after { content: '\2192'; transition: transform 0.2s; }
 .project-card:hover .project-footer::after { transform: translateX(4px); }
 .project-card.featured { grid-column: span 2; background: linear-gradient(135deg,var(--dark-card),rgba(196,147,42,0.06)); }
